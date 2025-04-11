@@ -1,14 +1,14 @@
-# VALUE ITERATION ALGORITHM
+VALUE ITERATION ALGORITHM
 
-## AIM
+ AIM
 
 To develop a Python program to find the optimal policy for the given MDP using the value iteration algorithm.
 
-## PROBLEM STATEMENT
+ PROBLEM STATEMENT
 
 The FrozenLake environment in OpenAI Gym is a gridworld problem that challenges reinforcement learning agents to navigate a slippery terrain to reach a goal state while avoiding hazards. Note that the environment is closed with a fence, so the agent cannot leave the gridworld.
 
-## VALUE ITERATION ALGORITHM
+ VALUE ITERATION ALGORITHM
 
 Value iteration is a method of computing an optimal MDP policy and its value.
 It begins with an initial guess for the value function, and iteratively updates it towards the optimal value function, according to the Bellman optimality equation.
@@ -30,9 +30,9 @@ Return the optimal policy and the optimal value function.
 
 
 
-## VALUE ITERATION FUNCTION
-### Name: SUDHARSAN S
-### Register Number:212224040335
+ VALUE ITERATION FUNCTION
+ Name: SUDHARSAN S
+ Register Number:212224040335
 Include the value iteration function
 ```
 def value_iteration(P, gamma=1.0, theta=1e-10):
@@ -52,7 +52,7 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 ```
 
 
-## OUTPUT:
+OUTPUT:
 Mention the optimal policy, optimal value function , success rate for the optimal policy.
 ![image](https://github.com/user-attachments/assets/6963a9ec-4bde-4f14-9e73-fa20bd9bb7dd)
 
@@ -63,7 +63,7 @@ Mention the optimal policy, optimal value function , success rate for the optima
 ![image](https://github.com/user-attachments/assets/614f85af-c20c-42fd-a186-5fbe352d5866)
 
 
-## RESULT:
+RESULT:
 
 Thus, a Python program is developed to find the optimal policy for the given MDP using the value iteration algorithm.
 
